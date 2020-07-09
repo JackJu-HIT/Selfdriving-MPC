@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall   CMakeFiles/global_kinematic_model.dir/src/main.cpp.o  -o global_kinematic_model  -L/usr/local/lib 

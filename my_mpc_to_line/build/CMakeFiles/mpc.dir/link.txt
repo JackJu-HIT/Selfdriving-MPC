@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall   CMakeFiles/mpc.dir/src/MPC.cpp.o  -o mpc -lipopt -lpython2.7 

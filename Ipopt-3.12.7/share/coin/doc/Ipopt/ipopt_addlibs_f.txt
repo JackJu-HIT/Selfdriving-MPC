@@ -1,0 +1,1 @@
+               -L/home/juchunyu/Ipopt-3.12.7/lib -lipopt -llapack -lblas -ldl                -lstdc++ -lm

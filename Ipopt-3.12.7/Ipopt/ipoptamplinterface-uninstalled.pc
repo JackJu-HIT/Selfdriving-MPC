@@ -1,0 +1,10 @@
+prefix=/usr/local
+libdir=/home/juchunyu/传感器数据融合/CarND-MPC-Quizzes-master/Ipopt-3.12.7/Ipopt/src/Apps/AmplSolver
+
+Name: IPOPT
+Description: Ampl Interface TNLP to Ipopt
+URL: https://projects.coin-or.org/Ipopt
+Version: 3.12.7
+Libs: ${libdir}/libipoptamplinterface.la 
+Cflags: -I/home/juchunyu/传感器数据融合/CarND-MPC-Quizzes-master/Ipopt-3.12.7/Ipopt/src/Apps/AmplSolver
+Requires: ipopt coinasl 

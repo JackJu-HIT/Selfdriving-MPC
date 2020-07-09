@@ -1,0 +1,10 @@
+prefix=/usr/local
+libdir=/home/juchunyu/传感器数据融合/CarND-MPC-Quizzes-master/Ipopt-3.12.7/Ipopt/src/Interfaces
+
+Name: IPOPT
+Description: Interior Point Optimizer
+URL: https://projects.coin-or.org/Ipopt
+Version: 3.12.7
+Libs: ${libdir}/libipopt.la /usr/local/lib/libcoinlapack.a /usr/local/lib/libcoinblas.a -lgfortran  -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. -lgfortran -lm -lquadmath /usr/local/lib/libcoinblas.a -lgfortran  -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. -lgfortran -lm -lquadmath -lm  -ldl
+Cflags: -I/home/juchunyu/传感器数据融合/CarND-MPC-Quizzes-master/Ipopt-3.12.7/Ipopt/src/Interfaces -I/home/juchunyu/传感器数据融合/CarND-MPC-Quizzes-master/Ipopt-3.12.7/Ipopt/src/Common -I/home/juchunyu/传感器数据融合/CarND-MPC-Quizzes-master/Ipopt-3.12.7/Ipopt/src/LinAlg -I/home/juchunyu/传感器数据融合/CarND-MPC-Quizzes-master/Ipopt-3.12.7/Ipopt/src/Algorithm -I/home/juchunyu/传感器数据融合/CarND-MPC-Quizzes-master/Ipopt-3.12.7/Ipopt/src/contrib/CGPenalty -I/home/juchunyu/传感器数据融合/CarND-MPC-Quizzes-master/Ipopt-3.12.7/Ipopt/src/contrib/LinearSolverLoader -I/home/juchunyu/传感器数据融合/CarND-MPC-Quizzes-master/Ipopt-3.12.7/Ipopt/src/Common
+Requires: coinmumps 

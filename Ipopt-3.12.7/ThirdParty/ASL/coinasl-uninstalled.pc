@@ -1,0 +1,9 @@
+prefix=/usr/local
+libdir=/home/juchunyu/传感器数据融合/CarND-MPC-Quizzes-master/Ipopt-3.12.7/ThirdParty/ASL
+
+Name: ASL
+Description: AMPL Solver Library
+URL: https://projects.coin-or.org/BuildTools
+Version: 1.3.6
+Libs: ${libdir}/libcoinasl.la -lm -ldl 
+Cflags: -I/home/juchunyu/传感器数据融合/CarND-MPC-Quizzes-master/Ipopt-3.12.7/ThirdParty/ASL -I/home/juchunyu/传感器数据融合/CarND-MPC-Quizzes-master/Ipopt-3.12.7/ThirdParty/ASL/solvers
